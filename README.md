@@ -24,3 +24,4 @@ Eğer uygulamayı bilgisayarınızdan yayınlayıp telefondan girmek isterseniz 
 3. Yeni bir terminal açıp proje ana dizininde şu komutu yazın:
    `npx localtunnel --port 8080`
 4. Size verilen linki (`https://....loca.lt`) telefondan açın.
+Yusuf Serhat Tümtürk

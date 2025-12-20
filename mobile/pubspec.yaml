@@ -1,0 +1,36 @@
+name: engelsiz_alisveris
+description: "Görme engelli bireyler için market asistanı."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Networking
+  http: ^1.2.0
+  dio: ^5.4.0
+
+  # State Management (Riverpod is recommended for complexity, but using Provider for simplicity in MVP if preferred. Let's go with Provider for now as it's standard)
+  provider: ^6.1.1
+  
+  # Camera & AI
+  camera: ^0.10.5+9
+  google_mlkit_barcode_scanning: ^0.14.1
+  google_mlkit_text_recognition: ^0.15.0
+  flutter_tts: ^3.8.3 # Metin okuma için
+
+  # UI Tools
+  cupertino_icons: ^1.0.6
+  vibration: ^1.8.4 # Dokunsal geri bildirim
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

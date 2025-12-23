@@ -18,14 +18,14 @@ dependencies:
   provider: ^6.1.1
   
   # Camera & AI
-  camera: ^0.10.5+9
-  google_mlkit_barcode_scanning: ^0.14.1
-  google_mlkit_text_recognition: ^0.15.0
-  flutter_tts: ^3.8.3 # Metin okuma için
+  # camera: ^0.10.5+9
+  # google_mlkit_barcode_scanning: ^0.14.1
+  # google_mlkit_text_recognition: ^0.15.0
+  # flutter_tts: ^3.8.3 # Metin okuma için
 
   # UI Tools
   cupertino_icons: ^1.0.6
-  vibration: ^1.8.4 # Dokunsal geri bildirim
+  # vibration: ^1.8.4 # Dokunsal geri bildirim
 
 dev_dependencies:
   flutter_test:

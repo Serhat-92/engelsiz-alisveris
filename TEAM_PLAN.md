@@ -23,15 +23,15 @@ Projenin teknik yelpazesi (Flutter & Python) nedeniyle ekibi iki ana uzmanlık a
 ### 🖥️ Backend Ekibi (Python/FastAPI - 3 Kişi)
 **Hedef:** Hızlı, güvenli ve doğru data sağlayan bir servis mimarisi kurmak.
 
-*   **Aleyna Çiftçi (API & Veritabanı Mimarı):**
+*   **Aleyna (API & Veritabanı Mimarı):**
     *   Veritabanı modellerini (`SQLAlchemy`) tasarlamak ve yönetmek (Migration işlemleri).
     *   Temel API uçlarını (Endpoint) yazmak (Ürün ekle, getir, listele).
     *   Projenin genel mimarisini ve klasör yapısını kurmak.
-*   **Yusuf Serhat Tümtürk (Güvenlik & Admin Paneli Sorumlusu):**
+*   **Yusuf (Güvenlik & Admin Paneli Sorumlusu):**
     *   Kullanıcı yetkilendirme (Auth) ve güvenlik (JWT) işlemlerini yapmak.
     *   Admin paneli için gerekli raporlama ve yönetim servislerini hazırlamak.
     *   Loglama ve hata yakalama mekanizmalarını kurmak.
-*   **Üye 5 (Veri & Yapay Zeka/Görüntü İşleme Sorumlusu):**
+*   **Emre (Veri & Yapay Zeka/Görüntü İşleme Sorumlusu):**
     *   Ürün verilerini zenginleştirmek (Web scraping veya dataset işlemleri).
     *   AI modelini API'ye bağlamak ve görüntü işleme servislerini yazmak.
     *   Veritabanı performans optimizasyonu ve cache mekanizmaları (Redis vb.).

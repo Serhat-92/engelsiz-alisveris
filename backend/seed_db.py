@@ -14,7 +14,8 @@ def seed_db():
                 price=25.50, 
                 description="Test icin eklenen ornek urun.", 
                 barcode="123456789", 
-                currency="TRY"
+                currency="TRY",
+                image_url="https://placehold.co/600x400/png" # Ornek gorsel
             )
             db.add(p)
             db.commit()

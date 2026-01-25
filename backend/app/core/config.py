@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     
     USE_SQLITE: bool = True
 
+    # Redis Config
+    REDIS_URL: str = "redis://localhost:6379/0"
+
     @property
     def SQLALCHEMY_DATABASE_URI(self) -> str:
         if self.USE_SQLITE:
